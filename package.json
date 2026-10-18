@@ -1,0 +1,19 @@
+{
+  "name": "proxy-center-afg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Proxy Center AFG Mini App backend and preserved Sanaei deployer UI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check sanaei.js && node --check src/config.js && node --check src/store.js && node --check src/telegram.js && node --check src/configs.js && node --check src/proxy-center.js && node --check src/bot.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

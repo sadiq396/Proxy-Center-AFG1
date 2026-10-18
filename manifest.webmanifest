@@ -1,0 +1,10 @@
+{
+  "name": "Proxy Center AFG",
+  "short_name": "Proxy Center",
+  "lang": "fa",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08090d",
+  "theme_color": "#08090d",
+  "description": "مرکز کانفیگ و پروکسی"
+}
